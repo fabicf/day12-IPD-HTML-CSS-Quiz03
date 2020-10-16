@@ -1,0 +1,323 @@
+#main {
+  width: 960px;
+  margin: auto;
+  padding: 0.5rem;
+  /* border: 1px solid black; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.header {
+  border: 1px solid gray;
+  color: white;
+  background-color: rgb(70, 67, 67);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.compose-button {
+  align-self: center;
+}
+
+.compose-button > a {
+  background-color: orangered;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.compose-button a:hover {
+  background-color: orange;
+}
+
+.header-right-blocks {
+  display: flex;
+}
+
+.header-right-blocks > div {
+  align-self: center;
+  padding: 0 0.5rem;
+}
+.search-form {
+  display: block;
+  color: white;
+  background-color: rgb(70, 67, 67);
+  border: 1px solid white;
+  /* padding: 0.5rem; */
+  border-radius: 0.2rem;
+}
+
+.search-form > input {
+  padding: 0.4rem;
+}
+.placeholder-search {
+  color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.search-form > * {
+  border: none;
+  color: white;
+  background-color: rgb(70, 67, 67);
+}
+
+.header-right-blocks div img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+/* main grid styles */
+.main-grid {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 4fr 1.3fr;
+  column-gap: 0.5rem;
+  background-color: rgb(238, 238, 238);
+}
+
+.main-grid > div {
+  /* border: 1px solid blue; */
+}
+
+.user-buttons-top-right {
+  grid-column: 2 / 4;
+  padding: 0.5rem;
+}
+
+.subtitle-level1 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.user-name-top-left {
+  align-self: center;
+  padding-left: 0.5rem;
+}
+.user-buttons-top-right {
+  display: block;
+  text-align: right;
+}
+
+.user-buttons-top-right > a {
+  /* border: 1px solid red; */
+  padding: 0.2rem;
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+}
+
+.button-a {
+  border: 1px solid orangered;
+  color: orangered;
+  background-color: lavender;
+  border-radius: 0.2rem;
+}
+
+.button-a:hover {
+  background-color: white;
+}
+.button-b {
+  border: 1px solid orangered;
+  color: white;
+  background-color: orangered;
+  border-radius: 0.2rem;
+}
+.button-b:hover {
+  background-color: orange;
+}
+
+/* navbar left styles */
+.navbar-vertical {
+  /* border: 1px solid green; */
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+.navbar-vertical li a {
+  /* border: 1px solid red; */
+  margin: 0.1rem;
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: lavender;
+  width: 4rem;
+  padding: 0.6rem 4rem 0.6rem 0.6rem;
+}
+
+.navbar-vertical li a:hover {
+  color: orangered;
+  background-color: white;
+}
+.last-nav-button {
+  height: 7rem;
+}
+/* main profile info styles*/
+
+.orange-section {
+  /* border: 1px solid green; */
+  padding: 1rem;
+  background-image: url("orangebackground.png");
+  background-repeat: round;
+  color: white;
+}
+
+.orange-section > div {
+  display: inline-block;
+  justify-content: left;
+}
+.orange-section div img {
+  width: 9rem;
+  border-radius: 50%;
+  border: 0.1rem solid white;
+  position: relative;
+  top: 5rem;
+}
+
+.username-email {
+  padding: 0 0 0 2rem;
+}
+
+.white-section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+}
+
+.white-section > div {
+  /* border: 1px solid blue; */
+  padding: 1rem;
+  align-self: flex-end;
+}
+.white-section div ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.white-section div ul li {
+  padding: 0.1rem 0;
+}
+
+.grid-job {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-job div {
+  padding: 0.4rem 0.5rem;
+}
+
+.orange-letter {
+  color: orangered;
+}
+.contact-detail-block {
+  border-left: 0.1rem solid lightgray;
+}
+.contact-detail {
+  padding: 0.4rem;
+}
+.navbar-horizontal {
+  /* border: 1px solid blue; */
+  background-color: lavender;
+  padding: 0.8rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-horizontal nav a {
+  color: orangered;
+  text-decoration: none;
+  padding: 0 0.3rem;
+}
+
+.navbar-horizontal nav a:hover {
+  color: orange;
+}
+
+.contact-section {
+  /* border: 1px solid blue; */
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: white;
+}
+
+.contact-section-grid {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.contact-section-grid > div {
+  padding: 0.4rem 0;
+}
+.subtitle-level2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.heading-contact-grid {
+  grid-column: 1 /3;
+}
+
+.contact-left {
+  color: gray;
+}
+
+/* right side ads styles */
+
+.right-side-ads {
+  padding-right: 0.5rem;
+}
+.right-side-ads div {
+  /* border: 1px solid blue; */
+  padding-bottom: 0.3rem;
+  /* display: block; */
+  margin-bottom: 0.5rem;
+  background-color: white;
+}
+
+.block-right-side-ads {
+  padding: 0.5rem;
+  text-align: justify;
+}
+.subtitle-level3 {
+  font-weight: bold;
+  font-size: 0.7rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.random-ads-img {
+  width: 10rem;
+  align-content: center;
+}
+
+.grid-recent-badges {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 0.55rem;
+}
+
+.grid-recent-badges div img {
+  width: 1.5rem;
+  border-radius: 50%;
+}
+
+.grid-follow {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-follow div img {
+  width: 3rem;
+  border-radius: 50%;
+}
